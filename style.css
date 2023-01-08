@@ -219,7 +219,7 @@ p7 {
 }
 
 .otdel1 {
-    background: url(/img/fon1.png) center/cover no-repeat;
+    background: url(img/fon1.png) center/cover no-repeat;
     height: 195%;
 }
 
@@ -300,7 +300,7 @@ p7 {
 }
 
 .otdel2 {
-    background: url(/img/fon2.2.png) center/cover no-repeat;
+    background: url(img/fon2.2.png) center/cover no-repeat;
     height: 440%;
 }
 
