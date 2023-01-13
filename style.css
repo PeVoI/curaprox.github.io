@@ -225,7 +225,7 @@ p7 {
 
 .otdel1 {
     background: url(img/fon1.png) center/cover no-repeat;
-    height: 195%;
+    width: 1440px;
 }
 
 .container {
@@ -310,7 +310,7 @@ p7 {
 
 .otdel2 {
     background: url(img/fon2.2.png) center/cover no-repeat;
-    height: 440%;
+    width: 1440px;
 }
 
 .sec-4 {
