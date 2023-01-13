@@ -1,0 +1,966 @@
+@font-face {
+    font-family: "Circe";
+    src: url(/fonts/circe/);
+}
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(/fonts/Comic\ Sans\ MS/);
+}
+
+@font-face {
+    font-family: "To Japan";
+    src: url(/fonts/To\ Japan/);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+nav a {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'To Japan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120px;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 100px;
+    color: #ff0500;
+}
+
+h4 {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+h6 {
+    font-family: 'To Japan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+h7 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #004477;
+    padding-bottom: 10px;
+}
+
+p2 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #004477;
+}
+
+p3 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+p4 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+p5 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.5px;
+    color: #004477;
+}
+
+p6 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    color: #004477;
+}
+
+p7 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.abzac {
+    padding-top: 18px;
+}
+
+.abzac2 {
+    padding-top: 7px;
+}
+
+.otdel1 {
+    background: url(img/fon1.png) center/cover no-repeat;
+    height: 195%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 80px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.curaprox {
+    width: 201.6px;
+    height: 40.8px;
+}
+
+.sec-1 {
+    padding-top: 20px;
+}
+
+.sec-1, .sec-2 {
+    align-items: center;
+    text-align: center;
+}
+
+.bacterii {
+    padding-left: 15px;
+}
+
+.bac1 {
+    cursor: pointer;
+    width: 16%;
+    padding-right: 22px;
+}
+
+.bac2 {
+    cursor: pointer;
+    width: 17%;
+    padding-bottom: 35px;
+    padding-right: 15px;
+}
+
+.bac3 {
+    cursor: pointer;
+    width: 19%;
+    padding-right: 15px;
+}
+
+.bac4 {
+    cursor: pointer;
+    width: 20%;
+    padding-bottom: 35px;
+    padding-right: 25px;
+}
+
+.bac5 {
+    cursor: pointer;
+    width: 18%;
+}
+
+.sec-3 {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.crug {
+    display: flex;
+}
+
+.flex-card {
+    justify-content: space-between;
+    width: 50%;
+}
+
+.otdel2 {
+    background: url(img/fon2.2.png) center/cover no-repeat;
+    height: 440%;
+}
+
+.sec-4 {
+    padding-top: 12px;
+}
+
+.flex-card2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 50%;
+    position: relative;
+    display: table-cell;
+}
+
+.text {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.h4-1 {
+    padding-top: 10px;
+    padding-right: 102px;
+    color: #ED6FA6;
+}
+
+.img1 {
+    width: 461.6px;
+    height: 415.2px;
+    position: absolute;
+    left: -55px;
+    top: 45px;
+}
+
+.sec-5 {
+    padding-top: 90px;
+}
+
+.text2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.h4-2 {
+    padding-right: 60px;
+    color: #EA6324;
+}
+
+.img2 {
+    width: 396.8px;
+    height: 576px;
+    position: absolute;
+    left: -5px;
+    top: 35px;
+}
+
+.sec-6 {
+    padding-top: 10px;
+}
+
+.text3 {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.h4-3 {
+    padding-top: 40px;
+    padding-right: 100px;
+    color: #7A4897;
+}
+
+.img3 {
+    width: 417.6px;
+    height: 521.6px;
+    position: absolute;
+    left: -30px;
+    top: 40px;
+}
+
+.sec-7 {
+    padding-top: 50px;
+}
+
+.text4 {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.h4-4 {
+    padding-right: 50px;
+    color: #83BC41;
+}
+
+.p5-1 {
+    letter-spacing: -0.3px;
+}
+
+.img4 {
+    width: 494.4px;
+    height: 484px;
+    position: absolute;
+    left: -60px;
+    top: 65px;
+}
+
+.sec-8 {
+    padding-top: 0px;
+}
+
+.text5 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.h4-5 {
+    padding-top: 20px;
+    padding-right: 30px;
+    color: #E52525;
+}
+
+.img5 {
+    width: 291.2px;
+    height: 468.8px;
+    position: absolute;
+    left: 30px;
+    top: 68px;
+    z-index: -1;
+}
+
+.sec-9 {
+    padding-top: 160px;
+    align-items: center;
+    text-align: center;
+}
+
+.bacterii2 {
+    padding-left: 15px;
+}
+
+.bac1-2 {
+    width: 14%;
+    padding-right: 22px;
+}
+
+.bac2-2 {
+    width: 17%;
+    padding-right: 15px;
+}
+
+.bac3-2 {
+    width: 18%;
+    padding-right: 30px;
+}
+
+.bac4-2 {
+    width: 16%;
+    padding-right: 30px;
+}
+
+.bac5-2 {
+    width: 13%;
+}
+
+.sec-10 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.paste {
+    width: 73%;
+    padding-right: 45px;
+    /* width: 520.8px;
+    height: 294.4px; */
+}
+
+.redcrug {
+    background: url("img/circle2.png") center/cover no-repeat;
+    position: absolute;
+    width: 272px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px;
+    top: 175px;
+    left: 410px;
+}
+
+.h5-1 {
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.brush {
+    width: 362.4px;
+    height: 244.8px;
+    margin-left: 213px;
+    margin-top: -77px;
+}
+
+footer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: #449e03;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.flex-text2 {
+    text-align: center;
+    position: relative;
+}
+
+.txt {
+    margin-top: 5px;
+    margin-right: 85px;
+}
+
+.tg {
+    cursor: pointer;
+    position: absolute;
+    width: 34.4px;
+    left: 280px;
+    top: -5px;     
+}
+
+.vk {
+    cursor: pointer;
+    position: absolute;
+    width: 34.4px;
+    left: 320px;
+    top: -5px;
+}
+
+@media (max-width: 1440px) {
+    .otdel1 {
+        height: 150%;
+    }
+
+    .otdel2 {
+        height: 348%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .otdel1 {
+        height: 153%;
+    }
+
+    .otdel2 {
+        height: 342%;
+    }
+
+    nav a {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    
+    h1 {
+        font-size: 43px;
+        line-height: 80px;
+    }
+    
+    h2 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    
+    h3 {
+        font-size: 23px;
+        line-height: 50px;
+    }
+    
+    h4 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    
+    h5 {
+        font-size: 25px;
+        line-height: 70px;
+    }
+    
+    h6 {
+        font-size: 33px;
+        line-height: 20px;
+    }
+    
+    h7 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    
+    p {
+        font-size: 16.5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    
+    p2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    
+    p3 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    p4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    p5 {
+        font-size: 12px;
+        line-height: 24.5px;
+    }
+    
+    p6 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    p7 {
+        font-size: 19px;
+    }
+    
+    .abzac {
+        padding-top: 12px;
+    }
+    
+    .abzac2 {
+        padding-top: 7px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 570px;
+    }
+    
+    .flex-nav {
+        min-height: 60px;
+        padding: 0px 30px;
+    }
+    
+    .logo {
+        cursor: pointer;
+    }
+    
+    .curaprox {
+        width: 55%;
+        /* width: 220.5px;
+        height: 44.6px; */
+    }
+    
+    .sec-1 {
+        padding-top: 10px;
+    }
+    
+    .sec-1, .sec-2 {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .bacterii {
+        padding-left: 15px;
+    }
+    
+    .bac1 {
+        width: 17%;
+        padding-right: 22px;
+    }
+    
+    .bac2 {
+        width: 17%;
+        padding-bottom: 35px;
+        padding-right: 15px;
+    }
+    
+    .bac3 {
+        width: 20%;
+        padding-right: 15px;
+    }
+    
+    .bac4 {
+        width: 20%;
+        padding-bottom: 35px;
+        padding-right: 25px;
+    }
+    
+    .bac5 {
+        width: 19%;
+    }
+    
+    .bac5 {
+        width: 14%;
+    }
+    
+    .sec-3 {
+        text-align: center;
+        margin-top: 182px;
+    }
+    
+    .crug {
+        display: flex;
+    }
+    
+    .flex-card {
+        justify-content: space-between;
+        width: 50%;
+    }
+    
+    .sec-4 {
+        padding-top: 12px;
+    }
+    
+    .flex-card2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item {
+        width: 50%;
+        position: relative;
+        display: table-cell;
+    }
+    
+    .text {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    
+    .h4-1 {
+        padding-top: 10px;
+        padding-right: 102px;
+        color: #ED6FA6;
+    }
+    
+    .img1 {
+        width: 461.6px;
+        height: 415.2px;
+        position: absolute;
+        left: -55px;
+        top: 45px;
+    }
+    
+    .sec-5 {
+        padding-top: 90px;
+    }
+    
+    .text2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .h4-2 {
+        padding-right: 60px;
+        color: #EA6324;
+    }
+    
+    .img2 {
+        width: 396.8px;
+        height: 576px;
+        position: absolute;
+        left: -5px;
+        top: 35px;
+    }
+    
+    .sec-6 {
+        padding-top: 10px;
+    }
+    
+    .text3 {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .h4-3 {
+        padding-top: 40px;
+        padding-right: 100px;
+        color: #7A4897;
+    }
+    
+    .img3 {
+        width: 417.6px;
+        height: 521.6px;
+        position: absolute;
+        left: -30px;
+        top: 40px;
+    }
+    
+    .sec-7 {
+        padding-top: 50px;
+    }
+    
+    .text4 {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .h4-4 {
+        padding-right: 50px;
+        color: #83BC41;
+    }
+    
+    .p5-1 {
+        letter-spacing: -0.3px;
+    }
+    
+    .img4 {
+        width: 494.4px;
+        height: 484px;
+        position: absolute;
+        left: -60px;
+        top: 65px;
+    }
+    
+    .sec-8 {
+        padding-top: 0px;
+    }
+    
+    .text5 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .h4-5 {
+        padding-top: 20px;
+        padding-right: 30px;
+        color: #E52525;
+    }
+    
+    .img5 {
+        width: 291.2px;
+        height: 468.8px;
+        position: absolute;
+        left: 30px;
+        top: 68px;
+        z-index: -1;
+    }
+    
+    .sec-9 {
+        padding-top: 160px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .bacterii2 {
+        padding-left: 15px;
+    }
+    
+    .bac1-2 {
+        width: 14%;
+        padding-right: 22px;
+    }
+    
+    .bac2-2 {
+        width: 17%;
+        padding-right: 15px;
+    }
+    
+    .bac3-2 {
+        width: 18%;
+        padding-right: 30px;
+    }
+    
+    .bac4-2 {
+        width: 16%;
+        padding-right: 30px;
+    }
+    
+    .bac5-2 {
+        width: 13%;
+    }
+    
+    .sec-10 {
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    
+    .paste {
+        width: 73%;
+        padding-right: 45px;
+        /* width: 520.8px;
+        height: 294.4px; */
+    }
+    
+    .redcrug {
+        background: url("img/circle2.png") center/cover no-repeat;
+        position: absolute;
+        width: 272px;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 70px 10px;
+        top: 175px;
+        left: 410px;
+    }
+    
+    .h5-1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    
+    .brush {
+        width: 362.4px;
+        height: 244.8px;
+        margin-left: 213px;
+        margin-top: -77px;
+    }
+    
+    footer {
+        height: 64px;
+        display: flex;
+        align-items: center;
+        background-color: #449e03;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    
+    .flex-text2 {
+        text-align: center;
+        position: relative;
+    }
+    
+    .txt {
+        margin-top: 5px;
+        margin-right: 85px;
+    }
+    
+    .tg {
+        cursor: pointer;
+        position: absolute;
+        width: 34.4px;
+        left: 280px;
+        top: -5px;     
+    }
+    
+    .vk {
+        cursor: pointer;
+        position: absolute;
+        width: 34.4px;
+        left: 320px;
+        top: -5px;
+    }
+}
