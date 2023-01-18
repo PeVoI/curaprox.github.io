@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Circe";
-    src: url(../fonts/Circe/circe.ttf);
+    src: url(fonts/Circe/circe.ttf);
 }
 
 @font-face {
     font-family: "Comic Sans MS";
-    src: url(../fonts/ComicSansMS/comic.ttf);
+    src: url(fonts/ComicSansMS/comic.ttf);
 }
 
 @font-face {
     font-family: "To Japan";
-    src: url(../fonts/ToJapan/tojapan.ttf);
+    src: url(fonts/ToJapan/tojapan.ttf);
 }
 
 * {
