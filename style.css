@@ -3212,12 +3212,12 @@ footer {
 @media (max-width: 650px) and (min-width: 479.1px) {
     .otdel1 {
         background: url(img/fon1.30.png) center/cover no-repeat;
-        height: 655px;
+        height: 665px;
     }
 
     .otdel2 {
         background: url(img/fon2.01.png) center/cover no-repeat;
-        height: 3605px;
+        height: 3700px;
     }
 
     nav a {
