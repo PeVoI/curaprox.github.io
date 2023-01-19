@@ -3342,12 +3342,12 @@ footer {
 @media (max-width: 479px) and (min-width: 320px) {
     .otdel1 {
         background: url(img/fon1.31.png) center/cover no-repeat;
-        height: 490px;
+        height: 495px;
     }
 
     .otdel2 {
         background: url(img/fon2.01.png) center/cover no-repeat;
-        height: 3210px;
+        height: 3310px;
     }
 
     nav a {
@@ -3485,7 +3485,7 @@ footer {
     }
 
     .sec-3 {
-        margin-top: 3px;
+        margin-top: 0px;
     }
     
     .greencrug {
@@ -3712,10 +3712,4 @@ footer {
         margin-left: 1px;
         width: 21.4375px;
     }
-}
-
-@media safari{
-.otdel2 {
-    height: 440%;
-}
 }
