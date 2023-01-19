@@ -3713,3 +3713,9 @@ footer {
         width: 21.4375px;
     }
 }
+
+@media safari{
+.otdel2 {
+    height: 440%;
+}
+}
