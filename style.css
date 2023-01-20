@@ -3737,6 +3737,21 @@ footer {
     }
 }
 
+@media (width: 428px) {
+    .otdel1 {
+        height: 510px;
+    }
+
+    .otdel2 {
+        height: 3440px;
+    }
+
+    .h5-1 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
 @media (width: 414px) {
     .otdel1 {
         height: 510px;
